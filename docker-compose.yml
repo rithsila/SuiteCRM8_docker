@@ -11,7 +11,7 @@ services:
       #SuiteCRM Log Folder
       - ./logs/SuiteCRM:/var/www/html/SuiteCRM/logs
       #PHP config
-      - ./docker/config/php/php.ini:/etc/php/7.4/apache2/php.ini
+      - ./docker/config/php/php.ini:/etc/php/8.1/apache2/php.ini
       #APACHE config
       - ./docker/config/apache/apache2.conf:/etc/apache2/apache2.conf
       - ./docker/config/apache/sites.conf:/etc/apache2/sites-enabled/sites.conf
