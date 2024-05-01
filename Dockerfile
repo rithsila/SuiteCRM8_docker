@@ -2,7 +2,7 @@ FROM ubuntu:latest
 
 LABEL org.opencontainers.image.authors="khmertools7@gmail.com"
 
-ENV TZ=asia/Phnom_Penh
+ENV TZ=Asia/Phnom_Penh
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 RUN apt-get update
